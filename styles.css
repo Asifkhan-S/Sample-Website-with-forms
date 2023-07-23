@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("OIP.jpg");
+}
+
+header {
+    background-color: rgb(2, 54, 54);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+#welcome{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(6, 40, 41);
+    color: #3d819c;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+nav a {
+    color: #4690b3;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+footer {
+    background-color: rgb(6, 40, 41);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"]
+{
+    width: 1000px;
+    height: 30px;
+}
+
+form input[type="date"]
+{
+    width: 200px;
+    height: 30px;
+}
+
+form select
+{
+    width: 1000px;
+    height: 40px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:rgb(0, 8, 6);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    background-color: #3d819c;
+}
+
+#form-group{
+    width: 200px;
+    height: 50px;
+}
+
+#sec{
+    background-color: aquamarine;
+    color: #3d819c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}

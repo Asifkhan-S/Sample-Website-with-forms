@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ASIF KHAN S</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="mailto:717821L105@kce.ac.in">Mail</a></li>
+            <li><a href="tel:8610540376">Mobile</a></li>
+    </nav>
+
+    <div>
+        <p id="welcome">WELCOME TO MY WEBPAGE</p>
+    </div>
+
+    <div class="container">
+        <form id="myForm">
+          <div class="form-group">
+            <label for="name">Name:</label><br>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="mobile">Mobile:</label><br>
+            <input type="number" class="form-control" id="mobile" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="gender">Gender:</label><br>
+            <select class="form-control" id="gender" required>
+              <option value="">Select an option</option>
+              <option value="option1">Male</option>
+              <option value="option2">Female</option>
+              <option value="option3">Others</option>
+              <option value="option4">Not to mention</option>
+            </select>
+          </div>
+          <br>
+          <div class="form-box">
+            <form>
+              <label for="dob">Date of birth:</label><br>
+              <input type="date" id="dob" name="dob"><br><br>
+            </form>
+          </div> 
+          <br>     
+          <div class="form-group"">
+            <label class="material-checkbox">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              I have assure that all the details provided by me are correct and accurate.
+            </label>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary" onclick="window.location.href='second.html'" >Submit</button>
+        </form>
+      </div>
+      <br><br>
+
+    <footer>
+        <p>&copy; 2023 My Basic Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
